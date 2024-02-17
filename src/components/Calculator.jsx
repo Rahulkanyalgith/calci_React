@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function Calculator() {
 
-  const [result,setresult]=useState(' ');
+  const [result,setresult]=useState('');
 
   const clickHandle =(e) =>{
     setresult(result.concat(e.target.value));
